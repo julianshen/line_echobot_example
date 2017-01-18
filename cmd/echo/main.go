@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	log.Println("Hello")
 	bot, e := lbotx.NewBot(
 		os.Getenv("CHANNEL_SECRET"),
 		os.Getenv("CHANNEL_TOKEN"),
