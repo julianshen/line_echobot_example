@@ -1,1 +1,1 @@
-web: echo
+web: echobot
